@@ -1,0 +1,66 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait  .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left  { width: 55%; }
+  .mode-landscape .sl-right { width: 45%; }
+  .mode-portrait  .sl-left  { width: 100%; flex: 1; }
+  .mode-portrait  .sl-right { width: 100%; height: 38%; }
+</style>
+
+<section class="w-full h-full overflow-hidden bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Content column -->
+    <div class="sl-left flex flex-col justify-between p-12 bg-white">
+
+      <div>
+        <!-- Eyebrow -->
+        <div class="flex items-center gap-2 mb-8">
+          <span class="block w-8 h-px bg-blue-600"></span>
+          <span class="text-xs font-bold tracking-widest text-blue-600 uppercase">Pharma Detailing Platform</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-5xl font-extrabold text-slate-900 leading-tight mb-5">
+          Every visit.<br/>
+          Every detail.<br/>
+          <span class="text-blue-700">Perfectly logged.</span>
+        </h1>
+
+        <!-- Tagline -->
+        <p class="text-base text-slate-500 leading-relaxed max-w-xs">
+          A mobile-first detailing platform for pharma field teams — present, report, and track every HCP interaction from one app.
+        </p>
+      </div>
+
+      <!-- Bottom meta + attribution -->
+      <div class="flex flex-col gap-3">
+        <div class="flex flex-wrap gap-3">
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-500 inline-block"></span>MSRs
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block"></span>Sales Managers
+          </span>
+          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold">
+            <span class="w-1.5 h-1.5 rounded-full bg-slate-400 inline-block"></span>Brand Managers
+          </span>
+        </div>
+        <data-attribution />
+      </div>
+
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=pharmaceutical%20medical%20sales%20representative%20showing%20digital%20tablet%20presentation%20to%20doctor%20in%20bright%20modern%20clinic%20professional%20photorealistic"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <!-- Fade left edge into white content column -->
+      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/20 to-transparent"></div>
+    </div>
+
+  </div>
+</section>
