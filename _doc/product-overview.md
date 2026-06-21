@@ -39,7 +39,10 @@ A structured digital detailing app where reps conduct and record every HCP visit
 Professional, clinical, and clean. Projects pharmaceutical credibility and brand consistency in front of HCPs. Confident without being flashy — every interaction must feel approved, structured, and trustworthy.
 
 ## Platform
-Mobile-first (tablet + smartphone) for field reps. Web dashboard for managers and brand managers.
+Mobile-first (tablet + smartphone) for field reps. Web dashboard for managers and brand managers. The app opens to a role selector that routes each user into one of three dedicated experiences:
+- **Rep app** — Today view, HCP list & detail, visual-aid presentation flow, and on-the-spot sample logging
+- **Manager dashboard** — territory overview, reps, and visit activity
+- **Brand workspace** — visual-aid library management and product performance metrics
 
 ## Strategic Principles
 - Every detail visit is logged — no unrecorded HCP interactions
