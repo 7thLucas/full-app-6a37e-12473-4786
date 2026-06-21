@@ -1,4 +1,7 @@
-# Pharma Detailing App — Product Overview
+# MEGMA HEALTHCARE — Product Overview
+
+## Product Name
+**MEGMA HEALTHCARE**
 
 ## What It Is
 A mobile-first digital detailing platform for pharmaceutical medical sales representatives (MSRs) to present drug and product information to healthcare professionals (HCPs) during field visits, log structured call reports on the spot, track sample dispensing, and give sales managers real-time visibility into territory performance — all from a single app. The platform ships with a visual aid content management system: Brand Managers can upload and organise product visual aids at any time after launch, and reps can present whatever is in the library immediately — no pre-loaded content is required to go live.
