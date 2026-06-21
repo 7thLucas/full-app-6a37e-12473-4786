@@ -1,0 +1,78 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait  .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-main { width: 62%; }
+  .mode-landscape .sl-img  { width: 38%; }
+  .mode-portrait  .sl-main { width: 100%; flex: 1; }
+  .mode-portrait  .sl-img  { display: none; }
+</style>
+
+<section class="w-full h-full overflow-hidden bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Narrative column -->
+    <div class="sl-main p-12 flex flex-col justify-center gap-8 overflow-hidden">
+
+      <!-- Problem zone -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <span class="block w-4 h-px bg-red-400"></span>
+          <span class="text-xs font-bold tracking-widest text-red-500 uppercase">The Challenge</span>
+        </div>
+        <h2 class="text-2xl font-extrabold text-slate-900 mb-4">Pharma field teams are flying blind</h2>
+        <div class="flex flex-col gap-3">
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 text-red-600 text-xs font-bold">✕</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Reps carry printed brochures and fill call reports hours later — logs are incomplete, inconsistent, and non-compliant.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 text-red-600 text-xs font-bold">✕</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Managers have no real-time view of HCP coverage, visit frequency, or what is actually being presented in the field.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 text-red-600 text-xs font-bold">✕</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Sample distribution tracked on paper — creating inventory blind spots and compliance exposure at every audit.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="border-t border-slate-100"></div>
+
+      <!-- Solution zone -->
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <span class="block w-4 h-px bg-blue-600"></span>
+          <span class="text-xs font-bold tracking-widest text-blue-600 uppercase">The Solution</span>
+        </div>
+        <h2 class="text-2xl font-extrabold text-slate-900 mb-4">One app. Every detail. Instant record.</h2>
+        <div class="flex flex-col gap-3">
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 text-white text-xs font-bold">✓</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Reps present compliance-approved digital content and submit a structured call report on the spot — before leaving the clinic.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 text-white text-xs font-bold">✓</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Managers see every visit instantly in a live dashboard — by rep, territory, product, and call frequency.</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="mt-0.5 w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center flex-shrink-0 text-white text-xs font-bold">✓</span>
+            <p class="text-sm text-slate-600 leading-relaxed">Sample dispensing captured with digital signatures — full compliance record, zero paper trail, audit-ready.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Supporting image -->
+    <div class="sl-img relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=pharma%20sales%20manager%20reviewing%20field%20analytics%20dashboard%20on%20laptop%20in%20modern%20corporate%20office%20professional%20clean%20light"
+        class="w-full h-full object-cover"
+        alt=""
+      />
+      <div class="absolute inset-0 bg-gradient-to-r from-white via-white/10 to-transparent"></div>
+    </div>
+
+  </div>
+</section>
