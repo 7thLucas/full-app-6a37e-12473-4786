@@ -1,7 +1,7 @@
 # Pharma Detailing App — Product Overview
 
 ## What It Is
-A mobile-first digital detailing platform for pharmaceutical medical sales representatives (MSRs) to present drug and product information to healthcare professionals (HCPs) during field visits, log structured call reports on the spot, track sample dispensing, and give sales managers real-time visibility into territory performance — all from a single app.
+A mobile-first digital detailing platform for pharmaceutical medical sales representatives (MSRs) to present drug and product information to healthcare professionals (HCPs) during field visits, log structured call reports on the spot, track sample dispensing, and give sales managers real-time visibility into territory performance — all from a single app. The platform hosts the company's existing printed and digital product visual aids, digitising them into structured, presentable content reps can use in every detail call.
 
 ## The Problem
 - MSRs rely on printed brochures and fill call reports manually hours after a visit — logs are often incomplete, inconsistent, or non-compliant
